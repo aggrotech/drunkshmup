@@ -6,8 +6,11 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-
 # Compiled Static libraries
 *.lai
 *.la
 *.a
+/Debug/
+/*.sdf
+/drunkshmup.v11.suo
+/drunkshmup.opensdf

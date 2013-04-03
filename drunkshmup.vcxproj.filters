@@ -36,6 +36,9 @@
     <ClInclude Include="Graphics.h">
       <Filter>Windows</Filter>
     </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Math</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Input.cpp">
@@ -52,6 +55,15 @@
     </ClCompile>
     <ClCompile Include="Ship.cpp">
       <Filter>Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Math</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

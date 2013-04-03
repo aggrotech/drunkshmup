@@ -86,15 +86,19 @@
     <ClInclude Include="Bullet.h" />
     <ClInclude Include="Graphics.h" />
     <ClInclude Include="Input.h" />
+    <ClInclude Include="Rect.h" />
     <ClInclude Include="Ship.h" />
     <ClInclude Include="Vector2.h" />
     <ClInclude Include="World.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Bullet.cpp" />
     <ClCompile Include="Graphics.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Rect.cpp" />
     <ClCompile Include="Ship.cpp" />
+    <ClCompile Include="Vector2.cpp" />
     <ClCompile Include="World.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

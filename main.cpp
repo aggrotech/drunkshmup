@@ -16,11 +16,22 @@ void GameLoop()
     bool isQuitting = false;
     SDL_Event ev;
 
+    int startTicks = SDL_GetTicks();
+
     world.CreateTestWorld();
     bool isButtonDown = false;
 
     while (1)
     {
+        int ticks = SDL_GetTicks();
+
+        if (ticks - startTicks < 16)
+        {
+            continue;
+        }
+
+        startTicks = ticks;
+
         while(SDL_PollEvent(&ev) != 0)
         {
             if (ev.type == SDL_QUIT)
